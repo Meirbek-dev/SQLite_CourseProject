@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/white"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Название группы" />
+
+    <ImageView
+        android:id="@+id/editImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.5"
+        android:contentDescription="@string/edit_button_description"
+        android:src="@drawable/ic_mode_edit_black_24dp"
+        app:layout_constraintRight_toLeftOf="@+id/crossImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/crossImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:contentDescription="@string/cross_image_content_description"
+        android:src="@drawable/ic_delete_black_24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/registrationNumTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/band_num_with_color"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView" />
+
+    <TextView
+        android:id="@+id/registrationNumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintLeft_toRightOf="@id/registrationNumTitle"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView"
+        tools:text="100145" />
+
+
+    <TextView
+        android:id="@+id/genreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genre_with_color"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registrationNumTitle" />
+
+    <TextView
+        android:id="@+id/genreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintLeft_toRightOf="@id/genreTitle"
+        app:layout_constraintTop_toBottomOf="@id/registrationNumTitle"
+        tools:text="Поп, Рок, Инди" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BMK курсовая работа</string>
+    <string name="action_settings">Найстроки</string>
+    <string name="title_activity_create_album">CreateAlbumActivity</string>
+    <string name="band_num">Номер группы</string>
+    <string name="genre">Жанры</string>
+    <string name="genre_with_color">Жанры: </string>
+    <string name="cross_image_content_description">Удалить группу из базы данных SQLite</string>
+    <string name="empty_list_message">Список пуст!</string>
+    <string name="band_name">Название группы</string>
+    <string name="update">Обновить</string>
+    <string name="cancel_button">Выйти</string>
+    <string name="create_button">Создать</string>
+    <string name="all_delete">Удалить всё</string>
+    <string name="edit_button_description">Изменить информацию о группе</string>
+    <string name="album_name">Название альбома</string>
+    <string name="album_price">Цена альбома</string>
+    <string name="album_relDate">День выпуска альбома</string>
+    <string name="add_new_album">Добавить альбом</string>
+    <string name="add_new_band">Добавить группу</string>
+    <string name="band_information">Информация о группе</string>
+    <string name="name">Название</string>
+    <string name="band_num_with_color">Номер группы: </string>
+    <string name="album_list">Список CD-альбомов</string>
+    <string name="band_list">Список групп</string>
+    <string name="database_summary">Всего групп: %1$d. Всего альбомов: %2$d</string>
+</resources>

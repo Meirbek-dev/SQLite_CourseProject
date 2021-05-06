@@ -1,0 +1,63 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="kz.bmk.course_project.Features.AlbumCRUD.CreateAlbum.AlbumCreateDialogFragment">
+
+    <EditText
+        android:id="@+id/albumNameEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/album_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/albumPriceEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/album_price"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal|number"
+        android:minHeight="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/albumNameEditText" />
+
+    <EditText
+        android:id="@+id/albumRelDateEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/album_relDate"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/albumPriceEditText" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/create_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/cancelButton"
+        app:layout_constraintTop_toBottomOf="@id/albumRelDateEditText" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_button"
+        app:layout_constraintLeft_toRightOf="@id/createButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/createButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

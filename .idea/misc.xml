@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_album_add_24dp.xml" value="0.3703125" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_band_add_white_24dp.xml" value="0.3703125" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.22962962962962963" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_delete_white_24dp.xml" value="0.38229166666666664" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.38229166666666664" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_mode_edit_black_24dp.xml" value="0.38229166666666664" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_person_add_white_24dp.xml" value="0.38229166666666664" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/drawable/ic_subject_add_24dp.xml" value="0.38229166666666664" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/activity_album_list.xml" value="0.3541666666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/activity_band_list.xml" value="0.3541666666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/activity_main.xml" value="0.3489583333333333" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/activity_student_list.xml" value="0.20677083333333332" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/activity_subject_list.xml" value="0.20677083333333332" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/band_info.xml" value="0.33" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/content_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_album_create_dialog.xml" value="0.3541666666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_album_update_dialog.xml" value="0.3541666666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_band_create_dialog.xml" value="0.1953125" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_band_update_dialog.xml" value="0.19479166666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_student_create_dialog.xml" value="0.3541666666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_student_update_dialog.xml" value="0.19479166666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_subject_create_dialog.xml" value="0.20677083333333332" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/fragment_subject_update_dialog.xml" value="0.20677083333333332" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/item_album.xml" value="0.3541666666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/item_band.xml" value="0.3541666666666667" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/item_student.xml" value="0.36614583333333334" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/item_subject.xml" value="0.36614583333333334" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/layout/student_info.xml" value="0.20677083333333332" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2109375" />
+        <entry key="..\:/projects/Android_CourseProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
